@@ -23,7 +23,7 @@
 
 
 
-        if (round1 < 1000 && round2 < 1000) {
+        if (round1 < 1000 || round2 < 1000) {
 
 
 
@@ -32,7 +32,7 @@
             console.log("Não vale trapacear, apenas numeros entre 1000-10000! Atualize a página e tente novamente!")
 
 
-        } else if (round1 > 10000 && round2 > 10000) {
+        } else if (round1 > 10000 || round2 > 10000) {
 
 
             console.log("Não vale trapacear, apenas numeros entre 1000-10000! Atualize a página e tente novamente!")
